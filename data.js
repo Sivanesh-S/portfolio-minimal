@@ -1,10 +1,9 @@
 const main = {
-  name: 'Sivanesh',
-  mail: 'sivanesh.code@gmail.com',
-  img: 'https://sivanesh-s.github.io/images/sivanesh1.jpeg',
-  // Must make it like that typable like old portfolio version
+  name: 'Your Name',
+  mail: 'your.mail@gmail.com',
+  img: 'https://organicthemes.com/demo/profile/files/2018/05/profile-pic.jpg',
   role: ['Full Stack Developer'],
-  // https://ionicons.com/
+  // Refer https://ionicons.com/ and put the icon name inside iconName key
   connects: [
     {
       name: 'Home',
@@ -38,8 +37,8 @@ const main = {
     },
     {
       name: 'Mail',
-      iconName: 'mail-outline'
-      // link: ''
+      iconName: 'mail-outline',
+      link: `mailto:${'yourmail@gmail.com'}?Subject=Hello%20again`
     }
   ],
   links: [
@@ -47,5 +46,3 @@ const main = {
     { name: 'Blogs', link: '#blogs' }
   ]
 };
-
-// 'https://organicthemes.com/demo/profile/files/2018/05/profile-pic.jpg'
