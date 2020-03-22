@@ -1,6 +1,7 @@
 @media (min-width: 1024px) { 
   #main {
     font-size: 1.2em;
+    overflow: hidden;
   }
 
   .main-image {
@@ -13,6 +14,7 @@
     height: 100vh;
     width: 100%;
     margin-top: -128px; /* account for padding and border if not using box-sizing: border-box; */
+    overflow: hidden;
   }
 
   #main .imgBorder {

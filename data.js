@@ -48,38 +48,4 @@ const main = {
   ]
 };
 
-const projects = [
-  {
-    img: 'https://organicthemes.com/demo/profile/files/2018/05/profile-pic.jpg',
-    heading: 'Speech to code generation using progressive web apps',
-    description:
-      'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.',
-    links: [
-      {name: 'Demo', link: ''},
-      {name: 'Docs', link: ''},
-      {name: 'Github', link: ''},
-    ]
-  },
-  {
-    img: 'https://organicthemes.com/demo/profile/files/2018/05/profile-pic.jpg',
-    heading: 'Speech to code generation using progressive web apps',
-    description:
-      'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.',
-    links: [
-      {name: 'Demo', link: ''},
-      {name: 'Docs', link: ''},
-      {name: 'Github', link: ''},
-    ]
-  },
-  {
-    img: 'https://organicthemes.com/demo/profile/files/2018/05/profile-pic.jpg',
-    heading: 'Speech to code generation using progressive web apps',
-    description:
-      'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.',
-    links: [
-      {name: 'Demo', link: ''},
-      {name: 'Docs', link: ''},
-      {name: 'Github', link: ''},
-    ]
-  },
-]
+// 'https://organicthemes.com/demo/profile/files/2018/05/profile-pic.jpg'

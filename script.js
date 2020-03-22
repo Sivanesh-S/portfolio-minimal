@@ -59,22 +59,3 @@ const getLinks = links =>
     .join('\n');
 assignDOM(dom.main.links(), getLinks(main.links));
 
-// PROJECTS
-dom.logo().insertAdjacentHTML('afterbegin', `<img src=${main.img} class="rounded-lg m-5 p-1" />`);
-
-function getProject(heading, desc, img, links) {
-  const projectDOM = [];
-
-  const linksHTML = getLinks(links);
-  const headingDOM = `<h1>${heading}</h1>`;
-  const descDOM = `<p>${desc}</p>`;
-  const imgDOM = `<img src=${img} />`;
-
-  projectDOM.push('<div class="h-screen bg-pink-500">', imgDOM, headingDOM, descDOM, linksHTML, '</div>');
-
-  dom.projects().insertAdjacentHTML('afterbegin', projectDOM.join('\n'));
-}
-
-projects.forEach(({ img, heading, description, links }) =>
-  getProject(heading, description, img, links)
-);
