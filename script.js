@@ -45,8 +45,8 @@ assignDOM(dom.main.role(), main.role);
 // External Links (ICONS)
 const connectsDOM = main.connects
   .map(
-    ({ name, iconName }) =>
-      `<ion-icon name="${iconName}" title="${name}"></ion-icon>`
+    ({ name, iconName, link }) =>
+      `<a href=${link} target="_blank"><ion-icon name="${iconName}" title="${name}"></ion-icon></a>`
   )
   .join('\n');
 assignDOM(dom.main.connects(), connectsDOM);
@@ -60,7 +60,7 @@ const getLinks = links =>
 assignDOM(dom.main.links(), getLinks(main.links));
 
 // PROJECTS
-dom.logo().insertAdjacentHTML('afterbegin', `<img src=${main.img} />`);
+dom.logo().insertAdjacentHTML('afterbegin', `<img src=${main.img} class="rounded-lg m-5 p-1" />`);
 
 function getProject(heading, desc, img, links) {
   const projectDOM = [];
@@ -70,7 +70,7 @@ function getProject(heading, desc, img, links) {
   const descDOM = `<p>${desc}</p>`;
   const imgDOM = `<img src=${img} />`;
 
-  projectDOM.push('<div>', imgDOM, headingDOM, descDOM, linksHTML, '</div>');
+  projectDOM.push('<div class="h-screen bg-pink-500">', imgDOM, headingDOM, descDOM, linksHTML, '</div>');
 
   dom.projects().insertAdjacentHTML('afterbegin', projectDOM.join('\n'));
 }
