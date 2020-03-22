@@ -2,6 +2,8 @@ const getDOM = selector => () => {
   return document.querySelector(selector);
 };
 
+document.title = `${main.name} | ${main.role}`
+
 // Values DOM nodes
 const dom = {
   main: {
