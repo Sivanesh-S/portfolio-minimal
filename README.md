@@ -12,7 +12,7 @@ A small **minimal Portfolio** for developers who are tiring of thinking about cr
 It is fully responsible.
 
 ### Laptops
-<img src="./README_DOCS/lg.JPG" style="display: inline" width="500px">
+<img src="./README_DOCS/Lg.JPG" style="display: inline" width="500px">
 
 ### Tabs
 <img src="./README_DOCS/md.JPG" style="display: inline" width="500px">
