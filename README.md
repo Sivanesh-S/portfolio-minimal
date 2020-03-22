@@ -12,7 +12,7 @@ A small **minimal Portfolio** for developers who are tiring of thinking about cr
 It is fully responsible.
 
 ### Laptops
-![Laptops and Big screens](./README_DOCS/lg.JPG "Laptops and Big Screens")
+<img src="./README_DOCS/lg.JPG" style="display: inline" width="500px">
 
 ### Tabs
 <img src="./README_DOCS/md.JPG" style="display: inline" width="500px">
