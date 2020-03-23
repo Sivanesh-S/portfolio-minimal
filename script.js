@@ -21,12 +21,12 @@ const dom = {
 function assignDOM(dom, value, options) {
   console.log('dom, value, img:', dom, value, img);
 
-  if (options?.isImg) {
+  if (options && options.isImg) {
     dom.src = value;
     return;
   }
 
-  if (options?.isAdjacent) {
+  if (options && options.isAdjacent) {
     dom.insertAdjacentHTML('afterbegin', value);
   }
 

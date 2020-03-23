@@ -1,7 +1,7 @@
 # portfolio-minimal [(Demo)](https://sivanesh-s.github.io/portfolio-minimal/)
-This is for developers who thinks
+This is for developers who think
 
-**"My work and code speaks more than a Portfolio"**
+**"My work and code speak more than a Portfolio"**
 
 
 A small **minimal Portfolio** for developers who are tiring of thinking about creating their own new portfolio website.
@@ -9,7 +9,7 @@ A small **minimal Portfolio** for developers who are tiring of thinking about cr
 **NO WEB DEVELOPMENT SKILLS NEEDED** (If you do have, then can customize with your skills and ideas. :smile:)
 
 ## Responsive
-It is fully responsible.
+It is fully responsive.
 
 ### Laptops
 <img src="./README_DOCS/Lg.JPG"/>
